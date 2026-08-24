@@ -10,7 +10,7 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                bat 'docker build -t tut5 .'
+                bat "C:\Users\saksh\AppData\Local\Programs\DockerDesktop\resources\bin\docker.exe ."
             }
         }
 
